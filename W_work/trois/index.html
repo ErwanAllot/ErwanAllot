@@ -1,0 +1,113 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME_DF</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script async src="dom.js"></script>
+    <script async src="app.js"></script>
+    <!-- <script async src="begin.js"></script> -->
+    <script async src="../ALOGORITHMES/crible.js"></script>
+</head>
+<body>
+
+    <main>
+
+    
+            <div id="cadreExterne">
+        
+        
+        
+                <div id="onMontreMetatron" class="onMontreMetatron">
+                    <div id="graphTotal">
+                        <div id="graph2D_1">
+                            <div id="graph2D_2"></div>
+                        </div>
+                    </div>
+                    <DIV id="graphique"></DIV>
+                    <strong id="ouest">-x</strong>
+                    <strong id="nord">y</strong>
+                    <strong id="est">x</strong>
+                    <strong id="sud">-y</strong>
+                </div>
+        
+                <div id="boutonsEtinformations">
+        
+                    <h1>PRIME_DF</h1>
+                    <br><br><br><br>
+                    <details>
+                        <h2>Les derniers sont les premiers.</h2>
+                        <p>
+                            Explication :
+                            <br><br>
+                            2-3
+                            <br>
+                            On coupe en 2 compartiments parce que ça commence par 2.
+                            <br><br>
+                            3-5-7
+                            <br>
+                            On coupe en 3 compartiments parce que ça commence par 3.
+                            <br><br>
+                            7-11-13-17-19-23-29
+                            <br>
+                            On coupe en 7 compartiments parce que ça commence par 7.
+                            <br><br>
+                        </p>
+                        <p>
+                            <br>
+                            On pourrait par la suite essayer une stratégie différente, 
+                            auquel je viens de penser, et faire du coup : <br>
+                            2-3 <br>
+                            5-7-11-13-17 <br>
+                            19-23-29-etc... (une suite de 19 np consécutif commençant par 19)
+                        </p>
+                    </details>
+
+                    
+                    <br><br><br><br>
+        
+                    <button onclick="planUnique()">Lancer le plan</button>
+        
+                    
+                    
+                    <br><br><br><br>
+                    -----------------------------------------
+                    <br><br><br><br>
+        
+                    <a href="index.html"><strong>RESET</strong></a>
+
+                    <br><br><br><br>
+                    -----------------------------------------
+                    <br><br><br><br>
+
+                    <div id="voir"></div>
+                    <div id="revoir"></div>
+
+                    <div id="encore"></div>
+
+                    <div id="okiki"></div>
+
+
+                    <br><br>
+
+
+                    <div id="essai"></div>
+
+                    <div id="plop"></div>
+
+                    <div id="qq"></div>
+
+                    <!-- 
+                    <input type=button onMouseOver="document.all.texte.innerText='Salut !'" value="Ok !">
+                    <p id="texte"></p> -->
+
+                </div>
+        
+        
+            </div>
+        
+        </main>
+    
+</body>
+</html>
